@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/age_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button  android:id="@+id/valid_card" style="@style/BottomButton"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:text="VALID_CARD" android:onClick="dismissListener"/>
+    <Button  android:id="@+id/invalid_card" style="@style/BottomButton"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:text="INVALID_CARD" android:onClick="dismissListener"/>
+    <Button  android:id="@+id/less_than_age" style="@style/BottomButton"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:text="LESS_THAN_AGE" android:onClick="dismissListener"/>
+</LinearLayout>
