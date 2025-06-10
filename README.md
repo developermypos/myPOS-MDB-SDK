@@ -42,6 +42,14 @@ implementation 'com.mypos:mdbsdk:1.0.0'
 
 ## Initialization
 
+Add this to your AndroidManifest.xml file
+```xml
+<queries>
+	<package android:name="com.mypos" />
+        <package android:name="com.mypos.ipp" />
+</queries>
+```
+
 Initialize the MyPos components in your app:
 
 ```Java
