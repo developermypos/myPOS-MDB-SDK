@@ -1,12 +1,12 @@
 # myPOS-MDB-SDK
 
-The MDB Cashless Peripheral SDK is a lightweight, easy-to-integrate Android library designed for POS terminals that require implementation of the MDB (Multi-Drop Bus) protocol in cashless peripheral mode. This SDK enables Android applications to act as the main cashless application on POS devices, facilitating seamless communication with MDB-compliant vending controllers (VMCs).
+The MDB Cashless Peripheral SDK is a lightweight, easy-to-integrate Android library designed for myPOS terminals that require implementation of the MDB (Multi-Drop Bus) protocol in cashless peripheral mode. This SDK enables Android applications to act as the main cashless application on POS devices, facilitating seamless communication with MDB-compliant vending controllers (VMCs).
 
 ### Prerequisites
 
-1. Merchant account on [www.myPOS.eu](https://www.mypos.eu/) (or received a test account).
+1. Merchant account on [www.myPOS.com](https://www.mypos.com/) (or received a test account).
 2. Received myPOS terminal
-3. Requested Access   [Developers myPOS](http://developers.mypos.eu) site.
+3. Requested Access   [Developers myPOS](http://developers.mypos.com) site.
 4.	Deployment Target Android 11 or later.
 5.	Android SDK Platform 30 or later.
 
