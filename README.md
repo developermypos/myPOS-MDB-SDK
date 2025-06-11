@@ -6,9 +6,8 @@ The MDB Cashless Peripheral SDK is a lightweight, easy-to-integrate Android libr
 
 1. Merchant account on [www.myPOS.com](https://www.mypos.com/) (or received a test account).
 2. Received myPOS terminal
-3. Requested Access   [Developers myPOS](http://developers.mypos.com) site.
-4.	Deployment Target Android 11 or later.
-5.	Android SDK Platform 30 or later.
+3.	Deployment Target Android 11 or later.
+4.	Android SDK Platform 30 or later.
 
 ### Table of Contents
 
