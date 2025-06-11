@@ -214,15 +214,7 @@ report.put(ReportKey.TYPE, ReportType.CANCEL_SESSION_REQUEST.ordinal());
 MDBManager.getInstance().reportToVMC(report.toString());
 ```
 
-Load initial credit to the VMC:
-```Java
-JSONObject report = new JSONObject();
-report.put(ReportKey.TYPE, ReportType.BEGIN_SESSION.ordinal());
-report.put(ReportKey.FUNDS, hexAmount);
-MDBManager.getInstance().reportToVMC(report.toString());
-```
-
-Report vend result from requested transaction:
+Report vend result from the requested transaction:
 ```Java
 JSONObject report = new JSONObject();
 report.put(ReportKey.TYPE, ReportType.TRADE_RESULT.ordinal());
