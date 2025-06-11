@@ -150,7 +150,7 @@ private final IPaymentCallback iPaymentCallback = new IPaymentCallback.Stub() {
     }
 
     @Override
-    public void notifyVendParam(int type, byte[] data) throws RemoteException {
+    public void notifyVendParam(int type, byte[] data) {
         // handle vmc params
         switch (VendParam.values()[type]) {
             case MIN_PRICE:
@@ -166,13 +166,13 @@ private final IPaymentCallback iPaymentCallback = new IPaymentCallback.Stub() {
     }
 
     @Override
-    public void onPayResult(String result) throws RemoteException {}
+    public void onPayResult(String result) {}
 
     @Override
-    public void onCallDiagnostics(byte[] bytes) throws RemoteException {}
+    public void onCallDiagnostics(byte[] bytes) {}
 
     @Override
-    public void onReaderCancel() throws RemoteException {}
+    public void onReaderCancel() {}
 };
 ```
 
@@ -193,7 +193,7 @@ private final ICompletionCallback iCompletionCallback = new ICompletionCallback.
     public void onNotifyVMCInfo(final String brand, final String model) {}
 
     @Override
-    public void onReportError(int type, boolean success, String errorMessage) throws RemoteException {}
+    public void onReportError(int type, boolean success, String errorMessage) {}
 };
 
 ```
@@ -233,7 +233,7 @@ Setup age verification callback:
 ```Java
 private IAgeVerificationCallback ageVerificationCallback = new IAgeVerificationCallback.Stub() {
     @Override
-    public void onCheckAgeVerification(int age) throws RemoteException {
+    public void onCheckAgeVerification(int age) {
       // do the age verification
     }
 };
